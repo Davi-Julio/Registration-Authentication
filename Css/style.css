@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald&family=Raleway:ital,wght@0,400;0,700;1,300&family=Roboto+Condensed:ital@1&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  background-color: rgb(34, 34, 34);
+  color: #fff;
+}
+
+
+/*Header*/
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  padding: 2% 0;
+}
+
+.titulo-header {
+  text-align: center;
+}
+
+.nav ol {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav ol li {
+  list-style-type: none;
+}
+
+.nav ol li a {
+  text-decoration: none;
+  padding: 10px 12px;
+  color: #fff;
+}
+
+.nav ol li:nth-child(2) {
+  border: 2px solid rgb(132, 14, 201);
+  padding: 10px 12px;
+  border-radius: 10px;
+}
+
+/*Tela de Login*/
+
+.main {
+  padding: 1% 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 550px;
+}
+
+.titulo-main > h1 {
+  text-transform: uppercase;
+}
+
+.span-text {
+  color: rgb(132, 14, 201);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#form input {
+  width: 40vw;
+  height: 6vh;
+}
+
+#btnLogin {
+  width: 20vw;
+  height: 6vh;
+  background-color: rgb(132, 14, 201);
+  color: #fff;
+  font-weight: 800;
+  margin: 20px 0px;
+  border: none;
+  border-radius: 5px;
+}
+
+.figure-main img {
+  width: 30vw;
+  border-radius: 20px;
+}
+
+/*Tela de Cadastro*/
+
+.form2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form2 > label {
+  border-bottom: 1px solid rgb(132, 14, 201);
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+#form2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+#form2 input {
+  margin-bottom: 15px;
+  width: 40vw;
+  height: 6vh;
+}
+
+#btnCadastro {
+  width: 30vw;
+  height: 6vh;
+  background-color: rgb(132, 14, 201);
+  color: #fff;
+  font-weight: 800;
+  border: none;
+  border-radius: 5px;
+}
